@@ -1,0 +1,51 @@
+name: pokemon_data_app
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+4
+  flutter_spinkit: ^4.1.2
+  flutter_launcher_icons: ^0.7.4
+  animated_splash: ^1.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/logo.png"
+
+
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+    - assets/
+
+  fonts:
+    - family: Acme
+      fonts:
+        - asset: font/Courgette-Regular.ttf
+          weight: 100
+
